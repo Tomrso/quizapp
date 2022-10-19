@@ -6,20 +6,22 @@ body {
 /*styles for App.js*/
 .appWrapper {
     background-color: white;
-    width: 1100px;
+    width: 80%;
     min-height: 1000px;
-    height: 100vh;
+    height: 100%;
     margin: auto;
     border-radius: 10px;
     padding-top: 100px;
+    max-width: 1200px;
+    min-width: 750px;
 }
 
 .congratsText {
-    text-align: center;
+    display: flex;
+    margin: auto;
+    justify-content: center;
     font-size: 2.5em;
-    border-radius: 10px;
-    margin: 80px auto;
-    width: 800px
+    padding: 10px 0 20px 0;
 }
 
 button {
@@ -29,19 +31,20 @@ button {
     width: 120px;
     height:50px;
     font-size: 1.3em;
-    position: absolute;
-    left: 45%;
-    top: 950px;
     color: white
 }
 
+.submit {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
 .twitterBtn {
-    margin-top: 150px;
-    left: 40%;
     display: flex;
     width: 300px;
     justify-content: center;
     align-items: center;
+    margin: auto;
 }
 
 .twitterBtnText {
@@ -54,7 +57,9 @@ button {
     background: linear-gradient(45deg, #3a47d5 0%, rgb(25,153,233) 50%, #00d2ff 100% );
     color: white;
     height: 100px;
-    width: 1100px;
+    width: 79%;
+    max-width: 1200px;
+    min-width: 750px;
     top:0;
     text-align: center;
 }
@@ -85,14 +90,21 @@ img {
 
 .imgWrapper {
     display: flex;
-    justify-content: space-between;
-    width: 900px;
-    padding-right: 85px;
-    margin: 80px auto;
+    align-items:center;
+    justify-content: center;
+    width: 75%;
+    margin: auto;
+}
+
+.begin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 /*Styles for Quiz.js*/
 .quizWrapper {
-    width: 1000px;
+    width: 80%;
     margin: auto;
     background-color: white;
     padding: 10px 5px 30px 0;
@@ -100,6 +112,7 @@ img {
 }
 
 .buttonWrapper {
+    display: flex;
     padding: 5px 0 20px 0;
 }
 

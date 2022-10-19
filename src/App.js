@@ -70,8 +70,8 @@ export default function App() {
         setCorrect(0)
     }  
 
-    const submit = <button>Submit</button>
-    const tryAgain = <button onClick={restart}>Try Again</button>
+    const submit = <div className="submit"><button>Submit</button></div>
+    const tryAgain = <div className="submit"><button onClick={restart}>Try Again</button></div>
     let button
     if (!finished) {
         button = submit
