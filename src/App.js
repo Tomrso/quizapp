@@ -5,7 +5,7 @@ import {questionList} from "./Questions"
 import Navbar from "./components/Navbar"
 import "./styles.css"
 import Confetti from "react-confetti"
-
+import {TwitterShareButton, TwitterIcon} from "react-share"
 
 export default function App() {
     const [start, setStart] = React.useState(false)
@@ -91,6 +91,17 @@ export default function App() {
     if (finished && correct === 5) {
         celebrate = <Confetti />
     }
+
+    const twitterButton = 
+        <TwitterShareButton 
+            url="https://jellyquiz.netlify.app/"
+            title="I know my @jellyesportsnft lore. How much to you know?"
+            className="twitterBtn"
+            via="tomrso"
+        >   
+        <TwitterIcon size={40} round />
+        <p className="twitterBtnText">Share With Your Friends</p>
+        </TwitterShareButton>
     const answers = []
     var i = 1
     const quizElements = questions.map(item => {
@@ -119,6 +130,7 @@ export default function App() {
             {start && button}
             </form>
             {finished && congrats}
+            {finished && twitterButton}
         </div>
     )
 }

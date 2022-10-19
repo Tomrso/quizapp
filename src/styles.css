@@ -34,6 +34,20 @@ button {
     top: 950px;
     color: white
 }
+
+.twitterBtn {
+    margin-top: 150px;
+    left: 40%;
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.twitterBtnText {
+    font-size: 1.5em;
+    padding-left: 10px;
+}
 /*styles for Navbar.js*/
 .navbarWrapper {
     position: absolute;
