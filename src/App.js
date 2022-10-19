@@ -95,7 +95,7 @@ export default function App() {
     const twitterButton = 
         <TwitterShareButton 
             url="https://jellyquiz.netlify.app/"
-            title="I know my @jellyesportsnft lore. How much to you know?"
+            title="I know my @jellyesportsnft lore. How much do you know?"
             className="twitterBtn"
             via="tomrso"
         >   
