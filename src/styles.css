@@ -18,9 +18,8 @@ body {
 }
 
 .congratsText {
-    display: flex;
+    text-align: center;
     margin: auto;
-    justify-content: center;
     font-size: 2.5rem;
     padding: 10px 0 20px 0;
 }
