@@ -56,12 +56,14 @@ button {
     position: absolute;
     background: linear-gradient(45deg, #3a47d5 0%, rgb(25,153,233) 50%, #00d2ff 100% );
     color: white;
-    height: 100px;
+    height: 80px;
     width: 79%;
     max-width: 1200px;
     min-width: 750px;
     top:0;
-    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
 
 .navbarTitle {
