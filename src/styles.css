@@ -1,4 +1,8 @@
 
+html {
+    margin: 0;
+    padding: 0;
+}
 body {
     background: linear-gradient(90deg, rgba(250,69,252,1) 0%, rgba(114,44,189,1) 40%, rgba(114,44,189,1) 60%, rgba(250,69,252,1) 100%);
     width: 100%;
@@ -10,7 +14,7 @@ body {
 .appWrapper {
     background-color: white;
     width: 800px;
-    height: 1300px;
+    height: 1220px;
     border-radius: 10px;
     padding-top: 50px;
     max-width: 1200px;
