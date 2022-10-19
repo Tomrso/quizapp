@@ -1,0 +1,135 @@
+
+
+body {
+    background: linear-gradient(90deg, rgba(250,69,252,1) 0%, rgba(114,44,189,1) 40%, rgba(114,44,189,1) 60%, rgba(250,69,252,1) 100%);
+}
+/*styles for App.js*/
+.appWrapper {
+    background-color: white;
+    width: 1100px;
+    min-height: 1000px;
+    height: 100vh;
+    margin: auto;
+    border-radius: 10px;
+    padding-top: 100px;
+}
+
+.congratsText {
+    text-align: center;
+    font-size: 2.5em;
+    border-radius: 10px;
+    margin: 80px auto;
+    width: 800px
+}
+
+button {
+    background-color: rgb(25, 153, 233);
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 120px;
+    height:50px;
+    font-size: 1.3em;
+    position: absolute;
+    left: 45%;
+    top: 950px;
+    color: white
+}
+/*styles for Navbar.js*/
+.navbarWrapper {
+    position: absolute;
+    background: linear-gradient(45deg, #3a47d5 0%, rgb(25,153,233) 50%, #00d2ff 100% );
+    color: white;
+    height: 100px;
+    width: 1100px;
+    top:0;
+    text-align: center;
+}
+
+.navbarTitle {
+    font-size: 3em;
+}
+
+/*Styles for Home.js*/
+.homeWrapper {
+    text-align: center;
+}
+.title{
+    font-size: 5em;
+    width: 800px;
+    margin: auto;
+    padding-top: 300px;
+}
+
+.description {
+    font-size: 1.5em;
+}
+
+img {
+    height: 500px;
+    width: 500px;
+}
+
+.imgWrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    padding-right: 85px;
+    margin: 80px auto;
+}
+/*Styles for Quiz.js*/
+.quizWrapper {
+    width: 1000px;
+    margin: auto;
+    background-color: white;
+    padding: 10px 5px 30px 0;
+    border-bottom: 1px solid grey;
+}
+
+.buttonWrapper {
+    padding: 5px 0 20px 0;
+}
+
+input {
+    display: none;
+}
+
+.button {
+    color: black;
+    border: solid 1px black;
+}
+
+.button:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 3px 3px grey;
+}
+
+input:checked + .button {
+    box-shadow: 1px 1px 3px 3px black;
+}
+
+.button, .buttonCorrect .buttonIncorrect{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 1.15rem;
+}
+
+.buttonCorrect {
+    padding: 10px;
+    border-Radius: 10px;
+    color: black;
+    background-color: lightgreen;
+    border: 1px solid black;
+    font-size: 1.15rem;
+}
+
+input:checked + .buttonCorrect {
+    box-shadow: 1px 1px 5px 2px green;
+    background-color: lightgreen;
+    border: 1px solid green;
+}
+input:checked + .buttonIncorrect {
+    box-shadow: 1px 1px 5px 3px red;
+    background-color: lightcoral;
+    border: 1px solid red;
+}
